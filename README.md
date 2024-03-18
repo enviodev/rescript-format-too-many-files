@@ -15,6 +15,10 @@ pnpm install
 `rescript format -all` freezes when running on too many .res files. To test run the below:
 
 ```
+mkdir src
+```
+
+```
 ./create-files.sh <num-files> src
 ```
 
